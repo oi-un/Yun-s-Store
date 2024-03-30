@@ -1,0 +1,76 @@
+@import url("reset.css");
+main table {
+  width: 100%;
+  border-top: 2px solid #383838;
+  margin-bottom: 50px;
+}
+main table:last-child {
+  margin-bottom: 0;
+}
+main table th, main table td {
+  padding: 15px 20px;
+  text-align: left;
+  border-bottom: 1px solid #dfdfdf;
+}
+main table th {
+  border-right: 1px solid #dfdfdf;
+}
+main table th.essential::after {
+  content: " *";
+  color: rgb(245, 117, 75);
+  font-weight: bold;
+}
+main table td input, main table td select {
+  border: 1px solid #dfdfdf;
+  padding: 10px;
+}
+main table td input:focus, main table td select:focus {
+  outline: 2px solid skyblue;
+  border-radius: 3px;
+}
+main table td span {
+  font-size: 0.8rem;
+  margin-left: 10px;
+}
+main table td select {
+  background-image: url("../images/down-btn.jpg");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position-x: right;
+  background-position-y: center;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  padding-right: 30px;
+}
+main table td .input-tel {
+  width: 100px;
+}
+main table td .input-email {
+  width: 300px;
+}
+main table .terms {
+  width: 100%;
+  height: 150px;
+  border: 1px solid #dfdfdf;
+  margin: 10px 0;
+}
+main table .terms-title {
+  font-weight: bold;
+  font-size: 0.85rem;
+}
+main table .terms-yes {
+  font-size: 0.8rem;
+}
+main .join-btns {
+  text-align: center;
+}
+main .join-btns .btn {
+  width: 200px;
+  padding: 20px 0;
+  font-size: 1rem;
+  margin-right: 10px;
+}
+main .join-btns .btn:last-child {
+  margin-right: 0;
+}/*# sourceMappingURL=join.css.map */

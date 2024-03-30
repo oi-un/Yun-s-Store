@@ -1,14 +1,32 @@
+import './style/index.css'
+
 import { Route, Routes } from "react-router-dom";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Cart from "./routes/Cart";
+import Join from "./routes/Join";
+import Login from "./routes/Login";
 
 
 function App() {
   return (
     <div className="App">
-      <Routes>
-        <Route path="login" element={<div>hello</div>}></Route>
-        <Route path="join" element={<div>hello</div>}></Route>
-        <Route path="cart" element={<div>hello</div>}></Route>
-      </Routes>
+
+      <Header></Header>
+
+      <main>
+
+        <Routes>
+          <Route path="login" element={<Login></Login>}></Route>
+          <Route path="join" element={<Join></Join>}></Route>
+          <Route path="cart" element={<Cart></Cart>}></Route>
+        </Routes>
+      </main>
+
+      
+
+      
+      <Footer></Footer>
     </div>
   );
 }

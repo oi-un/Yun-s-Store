@@ -1,0 +1,129 @@
+@import url("reset.css");
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@font-face {
+  font-family: "BagelFatOne-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_JAMO@1.0/BagelFatOne-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+.nanumgothic * {
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+@font-face {
+  font-family: "JalnanGothic";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.btn {
+  border: none;
+}
+
+.btn-black {
+  background-color: #383838;
+  color: #fff;
+}
+.btn-black:hover {
+  transition: 0.5s;
+  background-color: #757575;
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #383838;
+  border: 1px solid #dfdfdf;
+}
+.btn-white:hover {
+  color: skyblue;
+  transition: all 0.3s;
+  border-color: skyblue;
+}
+
+.btn-grey {
+  background-color: #dfdfdf;
+  color: #fff;
+}
+.btn-grey:hover {
+  background-color: #383838;
+  transition: 0.5s;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  font-family: "Nanum Gothic", sans-serif;
+  color: #383838;
+}
+.container a {
+  color: #383838;
+}
+
+footer {
+  margin-top: 150px;
+  padding-top: 30px;
+  background-color: rgba(238, 238, 238, 0.5568627451);
+  font-size: 0.85rem;
+  line-height: 1.3rem;
+}
+footer .container {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+footer .container .left-item .menu1 ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+footer .container .left-item .menu1 ul li {
+  margin-right: 30px;
+}
+footer .container .left-item .menu1 ul p {
+  line-height: 2rem;
+}
+footer .container .right-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+footer .container .right-item .menu {
+  margin-right: 30px;
+}
+footer .container .right-item .menu:last-child {
+  margin-right: 0;
+}
+footer .container .right-item .menu .menu-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+footer .container .right-item .menu .tel {
+  font-family: "JalnanGothic";
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+footer .container .right-item .menu3 .change {
+  margin-top: 20px;
+}
+footer .container .right-item .menu4 li {
+  font-size: 1.3rem;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+footer .container .right-item .menu4 li:last-child {
+  margin-bottom: 0;
+}
+footer .container .right-item .menu4 li:hover {
+  color: skyblue;
+  transition: all 0.3s;
+}
+footer .copyright {
+  text-align: center;
+  padding-bottom: 20px;
+  color: #a7a7a7;
+}/*# sourceMappingURL=footer.css.map */

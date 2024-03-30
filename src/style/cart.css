@@ -1,0 +1,71 @@
+@import url("reset.css");
+@font-face {
+  font-family: "JalnanGothic";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+main .remove-item {
+  text-align: right;
+  margin-bottom: 20px;
+}
+main .remove-item .btn-white {
+  margin-left: 15px;
+  padding: 7px 10px;
+}
+main .cart {
+  width: 100%;
+  margin-bottom: 50px;
+}
+main .cart td {
+  border-bottom: 1px solid #dfdfdf;
+  vertical-align: middle;
+}
+main .cart colgroup col:nth-child(1) {
+  width: 50px;
+}
+main .cart colgroup col:nth-child(2) {
+  width: 200px;
+}
+main .cart colgroup col:nth-child(4) {
+  width: 150px;
+}
+main .cart tr:first-child td {
+  border-top: 1px solid #dfdfdf;
+}
+main .cart tr td:first-child, main .cart tr td:last-child {
+  text-align: center;
+}
+main .cart tr td:nth-child(2) img {
+  width: 100%;
+  max-width: 100%;
+}
+main .cart tr td:nth-child(3) {
+  padding: 20px;
+}
+main .cart tr td:nth-child(3) .item-name {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+main .cart tr td:nth-child(3) .item-name a:hover {
+  text-decoration: underline;
+}
+main .cart tr td:nth-child(4) button {
+  margin: 10px;
+  font-size: 1rem;
+  width: 30px;
+  height: 30px;
+}
+main .cart-btns {
+  text-align: center;
+}
+main .cart-btns .btn {
+  padding: 20px;
+  width: 200px;
+  font-size: 1rem;
+  margin-right: 10px;
+}
+main .cart-btns .btn:last-child {
+  margin-right: 0;
+}/*# sourceMappingURL=cart.css.map */

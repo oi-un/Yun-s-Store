@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+a,
+button {
+  cursor: pointer;
+}
+input {
+  outline: none;
+}
+table {
+  width: 100%;
+}
