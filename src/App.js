@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Cart from "./routes/Cart";
 import Join from "./routes/Join";
 import Login from "./routes/Login";
+import ItemCard from './components/ItemCard';
 
 
 function App() {
@@ -15,12 +16,18 @@ function App() {
       <Header></Header>
 
       <main>
-
         <Routes>
           <Route path="login" element={<Login></Login>}></Route>
           <Route path="join" element={<Join></Join>}></Route>
           <Route path="cart" element={<Cart></Cart>}></Route>
         </Routes>
+        <div className='container'>
+          <div className="main-banner"></div>
+          <div className="main-book-area">
+            <ItemCard/>
+            
+          </div>
+        </div>
       </main>
 
       
