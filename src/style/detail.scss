@@ -1,0 +1,36 @@
+@import url('reset.css');
+
+$main-color:#383838;
+$hover-color:skyblue;
+$line-color:#dfdfdf;
+$line: 1px solid $line-color;
+
+@mixin flex($justify, $alignItem){
+  display: flex;
+  justify-content: $justify;
+  align-items: $alignItem;
+}
+@mixin hover{
+  color:$hover-color;
+  transition: all .3s;
+}
+@font-face {
+  font-family: 'JalnanGothic';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.detail-top{
+  @include flex(space-between, center);
+  .detail-top-img{
+    width: 30%;
+    img{width: 100%; max-width: 100%;}
+  }
+  .detail-top-info{
+    width:69%;
+    .item-title{
+      font-size: 1.5rem; font-weight: bold;
+    }
+  }
+}

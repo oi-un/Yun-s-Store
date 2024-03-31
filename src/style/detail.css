@@ -1,0 +1,26 @@
+@import url("reset.css");
+@font-face {
+  font-family: "JalnanGothic";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.detail-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.detail-top .detail-top-img {
+  width: 30%;
+}
+.detail-top .detail-top-img img {
+  width: 100%;
+  max-width: 100%;
+}
+.detail-top .detail-top-info {
+  width: 69%;
+}
+.detail-top .detail-top-info .item-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}/*# sourceMappingURL=detail.css.map */
